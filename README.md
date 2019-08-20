@@ -1,2 +1,9 @@
-# xaringan_kunoichi
-a presentation for RLadies Brisbane 20190821 using Xaringan and Kunoichi
+# Xaringan Kunoichi
+A presentation for RLadies Brisbane 
+
+2019-08-21 using Xaringan and Kunoichi.
+
+To deploy slides online https://github.com/yihui/xaringan/wiki/Deploy-Slides-Online, I followed these steps http://annaken.github.io/hosting-revealjs-presentation-github-pages.
+:)
+
+
