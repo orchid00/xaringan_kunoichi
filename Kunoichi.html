@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Rladies ninja presentation</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="  Paula Andrea Martinez  <span>&lt;i class="fab  fa-twitter faa-float animated "&gt;&lt;/i&gt;@orchid00</span>" />
+    <link href="Kunoichi_files/remark-css/kunoichi.css" rel="stylesheet" />
+    <link href="Kunoichi_files/remark-css/ninjutsu.css" rel="stylesheet" />
+    <link href="Kunoichi_files/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <link href="Kunoichi_files/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="Kunoichi_files/fontawesome/js/fontawesome-all.min.js"></script>
+    <script src="Kunoichi_files/htmlwidgets/htmlwidgets.js"></script>
+    <script src="Kunoichi_files/jquery/jquery.min.js"></script>
+    <link href="Kunoichi_files/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="Kunoichi_files/datatables-binding/datatables.js"></script>
+    <link href="Kunoichi_files/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="Kunoichi_files/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="Kunoichi_files/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="Kunoichi_files/crosstalk/css/crosstalk.css" rel="stylesheet" />
+    <script src="Kunoichi_files/crosstalk/js/crosstalk.min.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Rladies ninja presentation
+## ⚔<br/>with Xaringan and Kunoichi
+### <br><br>Paula Andrea Martinez  <span>&lt;i class="fab  fa-twitter faa-float animated "&gt;&lt;/i&gt;@orchid00</span>
+### 2019-08-19 (updated: 2019-08-20)
+
+---
+
+
+
+
+
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+background-size: 100px
+background-position: 90% 8%
+
+# Sharingan
+
+&lt;br&gt;
+The R package name **xaringan** was derived from **Sharingan**, a dōjutsu in the Japanese anime _Naruto_ 
+
+with two abilities:
+
+--
+
+- the "Eye of Insight"
+
+- the "Eye of Hypnotism"
+
+--
+
+&lt;br&gt;
+
+"I think a presentation is basically a way to communicate insights to the audience, and a great presentation may even "hypnotize" the audience." - by Yihui Xie.
+
+---
+
+class: middle center bg-main1
+
+# Kunoichi
+#⚔
+#くノ一
+# 女
+
+--
+## The Japanese word for female ninja
+
+--
+
+&lt;img src="https://emitanaka.org/ninja-theme/themes/kunoichi/images/kunoichi.svg" width="20%"&gt;
+
+---
+
+class: middle 
+
+## Now Kunoichi is a theme of latest version of `xaringan`
+
+
+---
+
+class: inverse, center, middle bg-main1
+
+# Get Started
+
+---
+
+# Let's do this together 
+
+&lt;br&gt;
+Install the **xaringan** package from **GitHub** 
+<span>&lt;i class="fab  fa-github faa-float animated "&gt;&lt;/i&gt;@yihui</span>
+[https://github.com/yihui/xaringan](https://github.com/yihui/xaringan)
+  
+&lt;br&gt;  
+
+```r
+devtools::install_github("yihui/xaringan")
+```
+&lt;br&gt;&lt;br&gt;
+Thank you **Yihui Xie**
+<span>&lt;i class="fab  fa-twitter faa-float animated "&gt;&lt;/i&gt;@xieyihui</span>
+&lt;br&gt;
+[https://twitter.com/xieyihui](https://twitter.com/xieyihui)
+
+
+---
+class: split-three
+
+.row.bg-white[.content[
+
+# Create a new R markdown file
+
+  You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/).
+
+```
+      1. New Project
+      2. From the menu: File &gt; New File &gt; R Markdown &gt; Template &gt; From Template &gt; Ninja presentation
+```      
+
+]]
+.row.bg-gray100[.content[
+### then add/modify the YAML
+
+```
+      output:
+        xaringan::moon_reader:
+          css: ["kunoichi", "ninjutsu" "rladies-fonts"]
+```
+]]
+.row.bg-main1[.content[
+&lt;br&gt;
+Thank you **Emi Tanaka** 
+<span>&lt;i class="fab  fa-twitter faa-float animated "&gt;&lt;/i&gt;@statsgen</span><span>&lt;i class="fab  fa-github faa-float animated "&gt;&lt;/i&gt;emitanaka</span>
+&lt;br&gt;
+&lt;br&gt;
+Thank you **Alison Hill** 
+<span>&lt;i class="fab  fa-twitter faa-float animated "&gt;&lt;/i&gt;@apreshill</span><span>&lt;i class="fab  fa-github faa-float animated "&gt;&lt;/i&gt;@apreshill</span>
+]]
+
+---
+class: middle center bg-main1
+
+# YAY!! 
+## that's pretty much it!
+
+
+&lt;img src="https://emitanaka.org/ninja-theme/themes/kunoichi/images/kunoichi.svg" width="20%"&gt;
+
+---
+## To see results
+&lt;br&gt;
+- Click the **Knit** button to compile it; in other words to generate the HTML from Markdown.
+
+&lt;br&gt;
+- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/) "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+With this option it is recomended to use 
+&lt;br&gt;
+` r options(servr.daemon = TRUE)`
+&lt;br&gt;
+To avoid locking up your console while compiling. I added this to the Rmd.
+
+---
+
+# Other recommended reading 
+
+
+1. The [remark.js](https://remarkjs.com) library; a simple, in-browser, Markdown-driven slideshow tool.
+
+1. The **xaringan** package to create R markdown presentations.
+
+1. The **kunoichi** theme to add R-ladies flavour to your presentation.
+
+1. [Rladies theme and fonts](https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/).
+
+---
+class: middle center bg-main1
+
+# Extras
+
+---
+class: split-two white
+
+.column.bg-white[.content[
+&lt;img src="images/dcossyle__navegating.PNG" width="80%"&gt;
+
+]]
+
+.column.bg-main1[.content.vmiddle.center[
+<span>&lt;i class="fab  fa-instagram faa-float animated "&gt;&lt;/i&gt;dcossyle</span>
+&lt;br&gt;
+[https://www.instagram.com/dcossyle/](https://www.instagram.com/dcossyle/) 
+&lt;br&gt;
+* look for cute giraffes
+&lt;br&gt;
+[https://tinystats.github.io/teacups-giraffes-and-statistics/index.html](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
+]]
+
+---
+
+class: middle center
+
+&lt;img src="images/small_ahosrt__dplyr_wrangling.png" width="60%"&gt;
+
+<span>&lt;i class="fab  fa-github faa-float animated "&gt;&lt;/i&gt;allisonhors</span>
+[https://github.com/allisonhorst/stats-illustrations](https://github.com/allisonhorst/stats-illustrations)
+
+
+---
+
+# Tables
+
+If you want to generate a table, you can do something like this:
+
+### R-Ladies Brisbane events so far
+
+
+```r
+DT::datatable(events[,c(1,2,6,7)], fillContainer = FALSE)
+```
+
+<div id="htmlwidget-5c481af6ca13bb279daf" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5c481af6ca13bb279daf">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5"],[257271224,259785109,261250153,262437333,263640982],["End of year party","R and RStudio Introductory Workshop","R-Ladies Brisbane Networking","Shiny Apps, building a R user community and Web Scraping using R!","R-Ladies Brisbane August meetup, Rmarkdown, Creating Packages and more!"],["2018-12-20","2019-03-27","2019-05-21","2019-07-02","2019-08-21"],["17:30","17:30","18:00","18:00","17:45"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>id<\/th>\n      <th>name<\/th>\n      <th>local_date<\/th>\n      <th>local_time<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+
+---
+
+class: middle center
+
+&lt;img src="images/RSVP_RladiesBrisbane.png"&gt;
+
+See `scripts/01_rladiesBrisbane.R`
+---
+
+
+class: middle center
+
+&lt;img src="images/MembersJoined.png"&gt;
+
+See `scripts/01_rladiesBrisbane.R`
+---
+
+class: middle center bg-main1
+
+
+# Thanks!
+
+Slides created via the R package **xaringan** [https://github.com/yihui/xaringan](https://github.com/yihui/xaringan)
+&lt;br&gt;
+and the theme **Kunichio** [https://github.com/emitanaka/ninja-theme](https://github.com/emitanaka/ninja-theme).
+&lt;br&gt;&lt;br&gt;
+Jumping emogies optional from **anicon** 
+[https://github.com/emitanaka/anicon](https://github.com/emitanaka/anicon).
+&lt;br&gt;&lt;br&gt;
+Xaringan uses **remark.js** [https://remarkjs.com](https://remarkjs.com), **knitr**[http://yihui.name/knitr](http://yihui.name/knitr), and R Markdown [https://rmarkdown.rstudio.com](https://rmarkdown.rstudio.com).
+&lt;br&gt;&lt;br&gt;
+I've used a lot of data wrangling and googling, and was inspired by many **RLadies** .
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
