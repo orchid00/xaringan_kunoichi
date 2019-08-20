@@ -6,7 +6,7 @@ A presentation for RLadies Brisbane
 [To deploy slides online](https://github.com/yihui/xaringan/wiki/Deploy-Slides-Online), I've followed [these steps](http://annaken.github.io/hosting-revealjs-presentation-github-pages). :)
 
 
-See the slides here: https://orchid00.github.io/xaringan_kunoichi/Kunoichi.html
+See the slides here: [https://orchid00.github.io/xaringan_kunoichi/Kunoichi.html](https://orchid00.github.io/xaringan_kunoichi/Kunoichi.html)
 
 [MIT License](LICENSE.md)
 
