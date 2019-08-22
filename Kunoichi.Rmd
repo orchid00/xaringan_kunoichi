@@ -167,11 +167,11 @@ To avoid locking up your console while compiling. I added this to the Rmd.
 
 1. The [remark.js](https://remarkjs.com) library; a simple, in-browser, Markdown-driven slideshow tool.
 
-1. The **xaringan** package to create R markdown presentations.
+1. The [**xaringan**](https://github.com/yihui/xaringan) package to create R markdown presentations, from Yihui Xie.
 
-1. The **kunoichi** theme to add R-ladies flavour to your presentation.
+1. The [**kunoichi**](https://github.com/emitanaka/ninja-theme) theme to add R-ladies flavour to your presentation, from Emi Tanaka.
 
-1. [Rladies theme and fonts](https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/).
+1. [Rladies theme and fonts](https://alison.rbind.io/post/2017-12-18-r-ladies-presentation-ninja/) from Alison Hill.
 
 ---
 class: middle center bg-main1
@@ -193,6 +193,13 @@ anicon::faa('instagram', animate='float', rtext='dcossyle')
 <br>
 [https://www.instagram.com/dcossyle/](https://www.instagram.com/dcossyle/) 
 <br>
+```{r echo=FALSE, eval=TRUE}
+anicon::faa('twitter', animate='float', rtext='dcossyle')
+```
+```{r echo=FALSE, eval=TRUE}
+anicon::faa('github', animate='float', rtext='dcossyleon')
+```
+<br>
 * look for cute giraffes
 <br>
 [https://tinystats.github.io/teacups-giraffes-and-statistics/index.html](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
@@ -205,7 +212,7 @@ class: middle center
 <img src="images/small_ahosrt__dplyr_wrangling.png" width="60%">
 
 ```{r echo=FALSE, eval=TRUE}
-anicon::faa('github', animate='float', rtext='allisonhors')
+anicon::faa('github', animate='float', rtext='allisonhorst')
 ```
 [https://github.com/allisonhorst/stats-illustrations](https://github.com/allisonhorst/stats-illustrations)
 
