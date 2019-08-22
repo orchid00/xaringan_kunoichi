@@ -2,7 +2,7 @@
 A presentation for RLadies Brisbane 
 
 2019-08-21 using Xaringan and Kunoichi.
-https://orchid00.github.io/xaringan_kunoichi/
+this repo is published here: [https://orchid00.github.io/xaringan_kunoichi/](https://orchid00.github.io/xaringan_kunoichi/)
 
 [To deploy slides online](https://github.com/yihui/xaringan/wiki/Deploy-Slides-Online), I've followed [these steps](http://annaken.github.io/hosting-revealjs-presentation-github-pages). :) 
 
